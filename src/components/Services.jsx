@@ -131,32 +131,32 @@ const Services = () => {
               </div>
 
               <div className="mt-4 md:mb-12">
-                <div className="flex justify-between items-center bg-[#0A2640] shadow-[#0A2640] rounded-xl text-white mr-14 py-7 px-9 mb-8">
+                <div className="flex justify-between gap-[4rem] md:gap-0 items-center bg-[#0A2640] shadow-lg rounded-xl text-white md:mr-14 py-10 md:py-7 px-5 md:px-9 mb-8">
                   <div>
                     <img src={Star} alt="staricon" />
                   </div>
                   <div>
-                    <h3 className="font-open">
+                    <h3 className="font-open text-[12px] md:text-lg">
                       We connect our customers with the best.
                     </h3>
                   </div>
                 </div>
-                <div className="flex justify-between items-center bg-[#fff] text-[#000000] mr-14 py-7 px-9 mb-8">
+                <div className="flex justify-between items-center gap-[4rem] md:gap-0  bg-[#fff] shadow-lg rounded-xl text-[#000000] md:mr-14 py-10 md:py-7 px-5 md:px-9 mb-8">
                   <div>
                     <img src={EyeIcon} alt="staricon" />
                   </div>
                   <div>
-                    <h3 className="font-open">
+                    <h3 className="font-open text-[12px] md:text-lg">
                       Advisor success customer launch party.
                     </h3>
                   </div>
                 </div>
-                <div className="flex justify-between items-center bg-[#fff] text-[#000000] mr-14 py-7 px-9 mb-8">
+                <div className="flex justify-between items-center gap-[4rem] md:gap-0  bg-[#fff] shadow-lg rounded-xl text-[#000000] md:mr-14 py-10 md:py-7 px-5 md:px-9 mb-8">
                   <div>
                     <img src={SunIcon} alt="staricon" />
                   </div>
                   <div>
-                    <h3 className="font-open">
+                    <h3 className="font-open text-[12px] md:text-lg">
                       Business-to-consumer long tail.
                     </h3>
                   </div>
