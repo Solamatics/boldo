@@ -3,7 +3,7 @@ import Boldo from "../assets/boldo2.svg";
 const Footer = () => {
   return (
     <>
-      <div className="flex flex-col md:justify-center px-16 md:flex-row mt-16">
+      <div className="flex flex-col md:justify-center px-16 md:flex-row md:ml-[40px] mt-16">
         <div className="flex flex-col md:grid md:grid-cols-4 md:gap-4">
           <div className="flex flex-col md:mt-4 gap-6">
             <div className="flex items-center gap-4">
@@ -43,7 +43,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <p className="mt-12 ml-28 md:ml-14 text-[#777777]">
+      <p className="mt-12 ml-28 md:ml-[100px] text-[#777777]">
         All rights reserved.
       </p>
     </>
