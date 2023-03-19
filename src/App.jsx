@@ -5,6 +5,7 @@ import Company from "./components/Company";
 import Connect from "./components/Connect";
 import Blog from "./components/Blog";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Connect />
       <Blog />
       <Contact />
+      <Footer />
     </>
   );
 }

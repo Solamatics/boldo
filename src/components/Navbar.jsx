@@ -4,6 +4,7 @@ import HeroFrame1 from "../assets/frame-1.svg";
 import HeroFrame2 from "../assets/frame-2.svg";
 import HeroFrame3 from "../assets/frame.png";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
+import IconList from "../assets/logowall.png";
 import Carousel from "./Slider";
 
 const Navbar = () => {
@@ -14,7 +15,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="bg-[#0A2640] h-screen">
+    <div className="bg-[#0A2640] h-screen relative">
       <div className="flex justify-between items-center text-white h-24 max-w-[1240px] mx-auto px-4 bg-[#0A2640]">
         <img src={Logo} alt="logo" className="mr-4" />
         <h1 className="w-full text-3xl font-bold text-white font-manrope">
@@ -77,7 +78,7 @@ const Navbar = () => {
         </div>
         <div>
           <div className="w-full md:w-auto">
-            <img src={HeroFrame1} alt="" />
+            <img src={HeroFrame1} alt="" className="w-[100%]" />
           </div>
           <div className="flex flex-row gap-2 mt-3 w-full md:w-auto">
             <div className="w-full md:w-1/2">
@@ -91,14 +92,9 @@ const Navbar = () => {
         </div>
       </div>
 
-
-{/*fix slider later*/}
-      {/* <div
-        className="mt-10 text-white flex flex-col items-center justify-center"
-        v
-      >
-        <Carousel />
-      </div> */}
+      <div className="md:flex md:justify-center mt-[90px] items-center md:mt-[40px]">
+        <img src={IconList} alt="" />
+      </div>
     </div>
   );
 };
